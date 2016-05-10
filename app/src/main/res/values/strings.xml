@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">RecyclerViewDemo</string>
+
+    <string name="ver_linear">LinearLayout_Ver</string>
+
+    <string name="hor_linear">LinearLayout_Hor</string>
+
+    <string name="gridlayout">GridLayout</string>
+
+    <string name="hor_gridlayout">HorizontalGridView</string>
+
+    <string name="stagger">StaggeredGridView</string>
+
+    <string name="add_item">Add</string>
+
+    <string name="delete_item">Delete</string>
+</resources>

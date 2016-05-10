@@ -1,0 +1,46 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_linear_ver"
+        android:orderInCategory="100"
+        android:title="@string/ver_linear"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_linear_hor"
+        android:orderInCategory="100"
+        android:title="@string/hor_linear"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_grid"
+        android:orderInCategory="100"
+        android:title="@string/gridlayout"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_grid_hor"
+        android:orderInCategory="100"
+        android:title="@string/hor_gridlayout"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_staggered"
+        android:orderInCategory="100"
+        android:title="@string/stagger"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_add"
+        android:icon="@mipmap/ic_menu_add"
+        android:orderInCategory="100"
+        android:title="@string/add_item"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_delete"
+        android:icon="@mipmap/ic_menu_delete"
+        android:orderInCategory="100"
+        android:title="@string/delete_item"
+        app:showAsAction="ifRoom" />
+</menu>
